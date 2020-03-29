@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Box.cs" />
+    <Compile Include="Assets\Script\Goal.cs" />
     <Compile Include="Assets\Script\Newscript.cs" />
+    <Compile Include="Assets\Script\win.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/user/LabGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

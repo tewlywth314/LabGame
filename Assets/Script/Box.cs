@@ -35,11 +35,5 @@ public class Box : MonoBehaviour
         rb.velocity = Vector3.zero;
     }
    
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.Equals(goal))
-        {
-            Debug.Log("Win");
-        }
-    }
+    
 }
